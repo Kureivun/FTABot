@@ -127,6 +127,10 @@ async def banggang(ctx):
   await ctx.channel.send("https://cdn.discordapp.com/attachments/823736494610972692/823756133704400956/rprifo34ef.gif")
 
 @client.command()
+async def liberal(ctx):
+  await ctx.channel.send("https://cdn.discordapp.com/attachments/816855246759788575/817903570699288576/videoplayback_63.mp4")
+
+@client.command()
 @has_permissions(manage_messages=True)
 async def delrole(ctx, *, rolename):
   role = discord.utils.get(ctx.guild.roles, name=rolename)
